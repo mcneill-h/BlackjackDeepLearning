@@ -1,4 +1,4 @@
-This project contains modified code derived from PyTorch tutorials --> intermediate sources --> reinforcement_q_learning.py
+This project contains modified code derived from PyTorch tutorials --> intermediate sources --> reinforcement_q_learning.py <https://github.com/pytorch/tutorials/blob/main/intermediate_source/reinforcement_q_learning.py>
 licensed under the BSD 3-Clause License.
 
 Copyright (c) 2017-2022 Adam Paszke <https://github.com/apaszke>, Mark Towers <https://github.com/pseudo-rnd-thoughts>, 
