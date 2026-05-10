@@ -2,7 +2,7 @@ This project contains modified code derived from PyTorch tutorials --> intermedi
 
 licensed under the BSD 3-Clause License.
 
-Copyright (c) 2017-2025 Adam Paszke <https://github.com/apaszke>, Mark Towers <https://github.com/pseudo-rnd-thoughts>, 
+Copyright (c) 2017-2025 Adam Paszke <https://github.com/apaszke>, Mark Towers <https://github.com/pseudo-rnd-thoughts>
 
 Copyright (c) 2025-2026 henrymcneill
 
