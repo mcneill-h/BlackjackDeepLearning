@@ -1,4 +1,5 @@
-<img width="559" height="453" alt="image" src="https://github.com/user-attachments/assets/92e242b4-8706-4e9a-ad10-721b10c1da7e" />
+<img width="633" height="472" alt="Screenshot 2026-05-26 at 12 45 32" src="https://github.com/user-attachments/assets/ac227f68-baa7-4158-ab5f-3b4f1c53036a" />
+
 
 This project contains modified code derived from PyTorch tutorials --> intermediate sources --> reinforcement_q_learning.py <https://github.com/pytorch/tutorials/blob/main/intermediate_source/reinforcement_q_learning.py>
 
