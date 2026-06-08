@@ -6,13 +6,11 @@ Copyright (c) 2017-2025 Adam Paszke <https://github.com/apaszke>, Mark Towers <h
 
 Copyright (c) 2025-2026 henrymcneill
 
-The original program was designed for active physical motions, whereas mine
-targeted a stochastic card game. I deleted and rewrote most parts of the initial DQN
-program, only retaining the general structure and key PyTorch algorithms.
+The original program was designed for active physical motions, whereas minetargeted a stochastic card game. I deleted and rewrote most parts of the initial DQN program, only retaining the general structure and key PyTorch algorithms.
 
 
 # Deep-Learning-AI-for-Blackjack
 A Python implementation of a deep reinforcement learning model using PyTorch to play Blackjack. Built by adapting an existing Deep Q-Learning algorithm, this project focuses on training an AI capable of handling the stochastic nature of Blackjack and learning optimal decision-making strategies through experience.
 <p align="center">
-<img width="633" height="472" alt="Screenshot 2026-05-26 at 12 45 32" src="https://github.com/user-attachments/assets/ac227f68-baa7-4158-ab5f-3b4f1c53036a" />
+<img width="317" height="236" alt="598133958-ac227f68-baa7-4158-ab5f-3b4f1c53036a" src="https://github.com/user-attachments/assets/f10fcda8-baf5-4136-8c80-b99c5b46b764" />
 </p>
