@@ -1,6 +1,6 @@
 # Deep Learning model for Blackjack
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">  <img src="https://img.shields.io/badge/PyTorch-2.2.2%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">  <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue?style=for-the-badge" alt="BSD 3-Clause License">  <img src="https://img.shields.io/badge/Release-v2.1.0-blue?style=for-the-badge" alt="Release">  <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
+<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">  <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">  <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue?style=for-the-badge" alt="BSD 3-Clause License">  <img src="https://img.shields.io/badge/Release-v2.0.0-blue?style=for-the-badge" alt="Release">  <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
 </p>
 
 This project contains modified code derived from PyTorch tutorials --> intermediate sources --> reinforcement_q_learning.py <https://github.com/pytorch/tutorials/blob/main/intermediate_source/reinforcement_q_learning.py>
