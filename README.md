@@ -1,4 +1,3 @@
-<img width="633" height="476" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/9234be33-c910-44b9-ac9e-4589416c59e5" />
 # Deep Learning model for Blackjack
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">  <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">  <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue?style=for-the-badge" alt="BSD 3-Clause License">  <img src="https://img.shields.io/badge/Release-v2.0.0-blue?style=for-the-badge" alt="Release">  <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
