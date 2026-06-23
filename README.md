@@ -1,3 +1,4 @@
+<img width="633" height="476" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/9234be33-c910-44b9-ac9e-4589416c59e5" />
 # Deep Learning model for Blackjack
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">  <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">  <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue?style=for-the-badge" alt="BSD 3-Clause License">  <img src="https://img.shields.io/badge/Release-v2.0.0-blue?style=for-the-badge" alt="Release">  <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
@@ -16,7 +17,9 @@ The original program was designed for active physical motions, whereas minetarge
 # What is this Deep Learning Model?
 A Python implementation of a deep reinforcement learning model using PyTorch to play Blackjack. Built by adapting an existing Deep Q-Learning algorithm, this project focuses on training an AI capable of handling the stochastic nature of Blackjack and learning optimal decision-making strategies through experience.
 <p align="center">
-<img width="317" height="236" alt="598133958-ac227f68-baa7-4158-ab5f-3b4f1c53036a" src="https://github.com/user-attachments/assets/f10fcda8-baf5-4136-8c80-b99c5b46b764" />
+<img width="317" height="236" alt="598133958-ac227f68-baa7-4158-ab5f-3b4f1c53036a" src="https://github.com/user-attachments/assets/f10fcda8-baf5-4136-8c80-b99c5b46b764" />  <img width="314" height="236" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/0d630de5-a974-45fe-a58f-1f3e222e898f" />  <img width="313" height="236" alt="Screenshot 2026-06-23 at 12 23 40" src="https://github.com/user-attachments/assets/a59a8585-1441-41e5-b1fb-cd44a625a7ce" />
+
+
 </p>
 
 # How it works?
