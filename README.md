@@ -4,7 +4,8 @@
 </p>
 <p align="center">
 This project contains modified code derived from PyTorch tutorials -> intermediate sources -> reinforcement_q_learning.py
-  
+</p>
+<p align="center">
   <https://github.com/pytorch/tutorials/blob/main/intermediate_source/reinforcement_q_learning.py>
 </p>
 
