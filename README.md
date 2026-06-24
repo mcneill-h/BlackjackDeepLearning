@@ -1,4 +1,6 @@
+<p align="center">
 # Deep Learning model for Blackjack
+</p>
 <p align="center">
 <img width="585" height="400" alt="Screenshot 2026-06-24 at 11 31 08" src="https://github.com/user-attachments/assets/bc152118-2378-43ba-801d-cb782a1a7f43" />
 </p>
@@ -35,8 +37,7 @@ The following step would be to not randomly generate numbers, but according to h
 # How it works?
 After copying the code and downloading the libraries, you can launch the model's training. Then, a real-time graph, similar to the examples above, will appear, showing the model's progression. After a moment, the training will stop. At the end, through the console, we can test the model by making it play individual games. Therefore, we can see what moves (hit or stand) the model would play for a given position.
 <p align="center">
-<img width="360" height="195" alt="Screenshot 2026-06-24 at 11 32 20" src="https://github.com/user-attachments/assets/d3faee61-baab-44b2-9f94-f04cfe173c9a" /> <img width="255" height="195" alt="Screenshot 2026-06-24 at 11 50 40" src="https://github.com/user-attachments/assets/24ace831-4b44-4c05-8a22-2abd32625bf6" />
-
+<img width="360" height="195" alt="Screenshot 2026-06-24 at 11 32 20" src="https://github.com/user-attachments/assets/1772d95f-6581-401e-ad1f-19a79c6f1a3d" /> <img width="255" height="195" alt="Screenshot 2026-06-24 at 11 50 40" src="https://github.com/user-attachments/assets/24ace831-4b44-4c05-8a22-2abd32625bf6" />
 </p>
 
 
