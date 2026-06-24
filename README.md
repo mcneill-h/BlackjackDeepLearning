@@ -35,7 +35,8 @@ The following step would be to not randomly generate numbers, but according to h
 # How it works?
 After copying the code and downloading the libraries, you can launch the model's training. Then, a real-time graph, similar to the examples above, will appear, showing the model's progression. After a moment, the training will stop. At the end, through the console, we can test the model by making it play individual games. Therefore, we can see what moves (hit or stand) the model would play for a given position.
 <p align="center">
-<img width="360" height="195" alt="Screenshot 2026-06-24 at 11 32 20" src="https://github.com/user-attachments/assets/d3faee61-baab-44b2-9f94-f04cfe173c9a" />  <img width="138" height="98" alt="Screenshot 2026-06-24 at 11 50 40" src="https://github.com/user-attachments/assets/7784eb6b-2fde-4bd9-b6aa-491c0dadbc6c" />
+<img width="360" height="195" alt="Screenshot 2026-06-24 at 11 32 20" src="https://github.com/user-attachments/assets/d3faee61-baab-44b2-9f94-f04cfe173c9a" /> <img width="255" height="195" alt="Screenshot 2026-06-24 at 11 50 40" src="https://github.com/user-attachments/assets/24ace831-4b44-4c05-8a22-2abd32625bf6" />
+
 </p>
 
 
