@@ -1,5 +1,4 @@
-# <p align="center"> Deep Learning model for Blackjack
-</p>
+# <p align="center"> Deep Learning model for Blackjack </p>
 <p align="center">
 <img width="585" height="400" alt="Screenshot 2026-06-24 at 11 31 08" src="https://github.com/user-attachments/assets/bc152118-2378-43ba-801d-cb782a1a7f43" />
 </p>
