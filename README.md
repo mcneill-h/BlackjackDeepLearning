@@ -1,11 +1,15 @@
 # Deep Learning model for Blackjack
 <p align="center">
+<img width="585" height="457" alt="Screenshot 2026-06-24 at 11 31 08" src="https://github.com/user-attachments/assets/bc152118-2378-43ba-801d-cb782a1a7f43" />
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">  <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">  <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue?style=for-the-badge" alt="BSD 3-Clause License">  <img src="https://img.shields.io/badge/Release-v2.0.0-blue?style=for-the-badge" alt="Release">  <img src="https://img.shields.io/badge/Open_Source-Yes-success?style=for-the-badge" alt="Open Source">
 </p>
 <p align="center">
 This project contains modified code derived from PyTorch tutorials -> intermediate sources -> reinforcement_q_learning.py
 </p>
 <p align="center">
+
   <https://github.com/pytorch/tutorials/blob/main/intermediate_source/reinforcement_q_learning.py>
 </p>
 
@@ -23,12 +27,16 @@ The model only has access of the number of aces it has, the sum of the dealer’
 <p align="center">
 <img width="253" height="188" alt="Screenshot 2026-05-26 at 12 45 32" src="https://github.com/user-attachments/assets/ac227f68-baa7-4158-ab5f-3b4f1c53036a" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/0d630de5-a974-45fe-a58f-1f3e222e898f" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 23 40" src="https://github.com/user-attachments/assets/a59a8585-1441-41e5-b1fb-cd44a625a7ce" />
 </p>
+The model is set to play 4000 games in 28 seconds, for an average of 0.007 seconds per game. As I don't have a GPU, I am using a CPU to compute.
 
 The following step would be to not randomly generate numbers, but according to how a real deck of cards would (a card that was already played once can't appear a second time). Therefore, the model could learn how to count cards and find techniques to improve its win rate.
 
 
 # How it works?
 After copying the code and downloading the libraries, you can launch the model's training. Then, a real-time graph, similar to the examples above, will appear, showing the model's progression. After a moment, the training will stop. At the end, through the console, we can test the model by making it play individual games. Therefore, we can see what moves (hit or stand) the model would play for a given position.
+<p align="center">
+<img width="360" height="198" alt="Screenshot 2026-06-24 at 11 32 20" src="https://github.com/user-attachments/assets/336ed16e-25a8-401c-87d0-2e2f3db4252b" />
+</p>
 
 
 # Installation
