@@ -22,7 +22,7 @@ The original program was designed for active physical motions, whereas minetarge
 # What is this Deep Learning Model?
 This project is a **Python** implementation of a **deep reinforcement learning model** using **PyTorch** to play Blackjack. Built by adapting an existing Deep Q-Learning algorithm, this project focuses on training an AI capable of handling the stochastic nature of Blackjack and learning optimal decision-making strategies through experience.
 
-# Results:
+# Results!
 The model only has access of the number of aces it has, the sum of the dealer’s cards, and the sum of the its cards. The graph on the side represents the model’s win rate while training. The blue line represents the average win rate of the last 20 games, while the orange one represents the last 500 games. As we can observe, the model achieves a win rate of approximatively 38%-40%, getting at 42% at best. These are great results as the model's win rate is very close to the maximum 42% a player, who doesn't count cards, could get.
 
 <p align="center">
