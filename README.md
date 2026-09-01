@@ -44,6 +44,8 @@ Remark: counting cards is only really useful for knowing when to double or not. 
 <p align="center">
 <img width="253" height="188" alt="Screenshot 2026-05-26 at 12 45 32" src="https://github.com/user-attachments/assets/ac227f68-baa7-4158-ab5f-3b4f1c53036a" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/0d630de5-a974-45fe-a58f-1f3e222e898f" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 23 40" src="https://github.com/user-attachments/assets/a59a8585-1441-41e5-b1fb-cd44a625a7ce" />
 </p>
+The images above are actually from an older version of my model, when it still didn't count cards yet. So the win rate is a bit lower than normally.
+
 The model is set to play 18000 games in ~18 seconds, for an average of 0.0015 seconds per game (for an apple M4 Laptop). As I don't have a traditional GPU, I am using a CPU to compute.
 
 The following step would be to not randomly generate numbers, but according to how a real deck of cards would (a card that was already played once can't appear a second time). Therefore, the model could learn how to count cards and find techniques to improve its win rate.
