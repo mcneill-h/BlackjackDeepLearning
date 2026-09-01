@@ -20,15 +20,31 @@ Copyright (c) 2025-2026 henrymcneill
 The original program was designed for active physical motions, whereas minetargeted a stochastic card game. I deleted and rewrote most parts of the initial DQN program, only retaining the general structure and key PyTorch algorithms.
 
 # What is this Deep Learning Model?
-This project is a **Python** implementation of a **deep reinforcement learning model** using **PyTorch** to play Blackjack. Built by adapting an existing Deep Q-Learning algorithm, this project focuses on training an AI capable of handling the stochastic nature of Blackjack and learning optimal decision-making strategies through experience.
+This project is a **Python** implementation of a **deep reinforcement learning model** using **PyTorch** to play Blackjack. Built by adapting an existing Deep Q-Learning algorithm, this project focuses on training an AI capable of handling the stochastic nature of Blackjack and learning optimal decision-making strategies through experience. The deep learning model has as a total of 14 inputs:
+
+1. the number of aces the dealer has
+2. the number of aces the model has
+3. the sum of the dealer's cards
+4. the sum of the model's cards
+5. the numbers of aces left in the deck
+6. the number of "2" cards in the deck
+7. the number of "3" cards in the deck
+8. ...
+14.the number of "10" cards in the deck (including Jacks, Queens, and Kings)
+
+It can therefore count cards and now exactly if it is more favourable to play risky or not. 
+
+The model can only hit or stand as its two outputs. The next step would be to upgrade the program to let it double and split as well (improving the program immensely).
 
 # Results!
-The model only has access of the number of aces it has, the sum of the dealer’s cards, and the sum of the its cards. The graph on the side represents the model’s win rate while training. The blue line represents the average win rate of the last 20 games, while the orange one represents the last 500 games. As we can observe, the model achieves a win rate of approximatively 38%-40%, getting at 42% at best. These are great results as the model's win rate is very close to the maximum 42% a player, who doesn't count cards, could get.
+The following graph represents the model’s win rate while training. The blue line represents the average win rate of the last 20 games, while the orange one represents the last 500 games. As we can observe, the model achieves a win rate of approximatively 40%, getting at 42% at best. These are great results as the model's win rate is very close to the mathematical 42%, who doesn't count cards, could get. Even if an expert player counts cars, he would only get a 44% win rate at maximum.
+
+Remark: counting cards is only really useful for knowing when to double or not. This is how experienced blackjack players get their gains. The win rate doesn't show how good a player is. Unfortunately, the model does not have access to "doubling" as an output yet. To know if counting cards really is being used by the model, we need to introduce the concept of "doubling" in the next program version. 
 
 <p align="center">
 <img width="253" height="188" alt="Screenshot 2026-05-26 at 12 45 32" src="https://github.com/user-attachments/assets/ac227f68-baa7-4158-ab5f-3b4f1c53036a" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 22 54" src="https://github.com/user-attachments/assets/0d630de5-a974-45fe-a58f-1f3e222e898f" />  <img width="250" height="188" alt="Screenshot 2026-06-23 at 12 23 40" src="https://github.com/user-attachments/assets/a59a8585-1441-41e5-b1fb-cd44a625a7ce" />
 </p>
-The model is set to play 4000 games in ~30 seconds, for an average of 0.007 seconds per game. As I don't have a GPU, I am using a CPU to compute.
+The model is set to play 18000 games in ~18 seconds, for an average of 0.0015 seconds per game (for an apple M4 Laptop). As I don't have a traditional GPU, I am using a CPU to compute.
 
 The following step would be to not randomly generate numbers, but according to how a real deck of cards would (a card that was already played once can't appear a second time). Therefore, the model could learn how to count cards and find techniques to improve its win rate.
 
